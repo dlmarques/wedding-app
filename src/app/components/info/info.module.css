@@ -13,7 +13,7 @@
         padding: 0 32px;
         padding-top: 32px;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             flex-direction: column;
             align-items: center;
         }
@@ -24,7 +24,7 @@
             flex-direction: column;
             padding: 0 16px;
 
-            @media (max-width: 768px) {
+            @media (max-width: 1024px) {
                 width: 70vw;
                 padding: 32px 0;
             }
@@ -76,7 +76,7 @@
         }
 
         .verticalDividerSvg {
-            @media (max-width: 768px) {
+            @media (max-width: 1024px) {
                 display: none;
             }
         }

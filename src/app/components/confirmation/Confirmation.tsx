@@ -87,7 +87,7 @@ const Confirmation = () => {
         <section className={styles.confirmations}>
             <div className={styles.confirmationContainer}>
                 <h1>Confirma a tua presença</h1>
-                <h2>até 31 de agosto</h2>
+                <h2>até 1 de agosto</h2>
                 <form id="form" method="post" onSubmit={(e) => {
                     e.preventDefault()
                     form.handleSubmit()

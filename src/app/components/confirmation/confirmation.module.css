@@ -1,12 +1,13 @@
 .confirmations {
     width: 100vw;
     height: 100vh;
-    background: url("../../assets/images/img6.jpeg") no-repeat center center / cover;
+    background: url("../../assets/images/img6.jpeg") no-repeat left center / cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1069px) {
         align-items: center;
         min-height: 100vh;
         height: auto;
@@ -16,17 +17,16 @@
     .confirmationContainer {
         width: 600px;
         height: auto;
-        max-height: 95vh;
         overflow-x: hidden;
         overflow-y: auto;
         background-color: var(--primary-background);
-        margin-left: 32px;
-        padding: 16px;
+        margin-right: 32px;
+        padding: 24px;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1069px) {
             width: 90%;
             background-color: var(--primary-background);
-            margin-left: 0;
+            margin-right: 0;
             max-height: none;
             height: auto;
             position: relative;

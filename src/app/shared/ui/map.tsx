@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker } from "react-leaflet";
 
 const Map = ({ position }: { position: { lat: number, lng: number } }) => {
     return (
-        <div>
+        <div className="w-full">
             <MapContainer
                 style={{ height: "400px", width: "100%" }}
                 center={position}
