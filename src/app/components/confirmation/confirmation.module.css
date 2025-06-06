@@ -20,7 +20,7 @@
         overflow-x: hidden;
         overflow-y: auto;
         background-color: var(--primary-background);
-        margin-right: 32px;
+        margin-right: 64px;
         padding: 24px;
 
         @media (max-width: 1069px) {
