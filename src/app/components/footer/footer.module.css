@@ -1,0 +1,62 @@
+.getInTouch {
+    width: 100vw;
+    height: auto;
+    background-color: var(--primary-background);
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.getInTouch h1 {
+    font-family: "Amsterdam", sans-serif;
+    font-size: 3.5rem;
+    color: var(--terracotta);
+    text-align: center;
+    margin-top: 0;
+    font-weight: 100;
+}
+
+.getInTouch p {
+    font-family: "Alice", sans-serif;
+    font-size: 1rem;
+    color: var(--terracotta);
+    text-align: center;
+    font-weight: 300;
+}
+
+.contactCards {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+@media (max-width: 600px) {
+    .contactCards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+}
+
+.card h2 {
+    font-family: "Amsterdam", sans-serif;
+    font-size: 3rem;
+    color: var(--terracotta);
+    text-align: center;
+    font-weight: 300;
+    padding-top: 16px;
+}
+
+.card p {
+    font-family: "Alice", sans-serif;
+    font-size: 1.25rem;
+    color: var(--terracotta);
+    text-align: center;
+    font-weight: 300;
+    padding-top: 48px;
+    user-select: text;
+}

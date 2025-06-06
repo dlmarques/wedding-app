@@ -1,0 +1,89 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    position: relative;
+
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: url('../../assets/images/2.jpeg') no-repeat center center / cover;
+
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        background: url('../../assets/images/daniel1.jpeg') no-repeat left center / cover;
+
+    }
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+    backdrop-filter: brightness(0.5) blur(1px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-family: 'Amsterdam', sans-serif;
+        font-weight: 400;
+        font-size: 10rem;
+        color: var(--terracotta);
+        text-align: center;
+        margin-top: 0;
+        font-weight: 100;
+        padding: 0 32px;
+
+        @media (max-width: 1024px) {
+            font-size: 6rem;
+        }
+
+        @media (max-width: 680px) {
+            font-size: 5rem;
+        }
+
+        @media (max-width: 520px) {
+            font-size: 3.5rem;
+        }
+
+        @media (max-width: 400px) {
+            font-size: 3rem;
+        }
+    }
+
+    p {
+        font-family: 'Alice', serif;
+        font-size: 2rem;
+        color: #fff;
+        text-align: center;
+        margin-top: 0;
+        font-weight: 100;
+        padding: 32px;
+
+        @media (max-width: 680px) {
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 520px) {
+            font-size: 0.8rem;
+        }
+    }
+}
