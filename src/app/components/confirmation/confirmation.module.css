@@ -17,6 +17,7 @@
     .confirmationContainer {
         width: 600px;
         height: auto;
+        max-height: 95vh;
         overflow-x: hidden;
         overflow-y: auto;
         background-color: var(--primary-background);
@@ -36,7 +37,7 @@
         h1 {
             text-align: center;
             font-family: "Amsterdam", sans-serif;
-            font-size: 4rem;
+            font-size: 3rem;
             color: var(--terracotta);
             margin-top: 0;
             font-weight: 100;
@@ -49,11 +50,10 @@
         h2 {
             text-align: center;
             font-family: "Alice", sans-serif;
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: var(--terracotta);
             margin-top: 0;
             font-weight: 300;
-            padding-top: 16px;
 
             @media (max-width: 768px) {
                 font-size: 1rem;
