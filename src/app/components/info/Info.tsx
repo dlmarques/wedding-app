@@ -13,14 +13,16 @@ const Info = () => {
             <div className={styles.cerimonyContent}>
                 <div className={styles.cerimonyCard}>
                     <h3>Recepção</h3>
-                    <h6>Noivo</h6>
+                    <h6>A partir das 10h</h6>
+
                     <Map position={{ lat: 38.819498, lng: -9.124647 }} />
+
                     <p style={{ fontSize: '1rem' }}>
+                        <span className="font-bold text-lg">Noivo: </span>
                         Travessa Joaquim Namorado, Lote 130, 2680-387 Unhos
                     </p>
-                    <h6>Noiva</h6>
                     <Map position={{ lat: 38.824290, lng: -9.122738 }} />
-                    <p style={{ fontSize: '1rem' }}>Rua da Esperança nº1, 2680-434 Unhos</p>
+                    <p style={{ fontSize: '1rem' }}><span className="font-bold text-lg">Noiva: </span>Rua da Esperança nº1, 2680-434 Unhos</p>
                 </div>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
