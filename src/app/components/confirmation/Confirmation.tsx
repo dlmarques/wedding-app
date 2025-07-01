@@ -99,6 +99,7 @@ const Confirmation = () => {
                                 <input
                                     type="text"
                                     name="name"
+                                    required
                                     placeholder="Escreve aqui o teu primeiro e último nome"
                                     onChange={(e) => {
                                         field.handleChange(e.target.value)
@@ -113,6 +114,7 @@ const Confirmation = () => {
                                 <input
                                     type="email"
                                     name="email"
+                                    required
                                     placeholder="Escreve aqui o teu e-mail"
                                     onChange={(e) => {
                                         field.handleChange(e.target.value)
